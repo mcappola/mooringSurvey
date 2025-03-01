@@ -32,7 +32,7 @@ This packages requires the sw_dist.m function found in the seawater package. In 
 
 - Version 1.0: Initial release.
 
-Written on: 20250220
-Last Edit: 20250301
-Michael Cappola (mcappola@udel.edu)
+##### Written on: 20250220
+##### Last Edit: 20250301
+##### Michael Cappola (mcappola@udel.edu)
 
