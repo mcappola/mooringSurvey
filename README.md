@@ -21,7 +21,7 @@ etc...
 This mode uses the readtable() function, so any spreadsheet or textfile format "should" work, as well as any standard delimiter. The file must be in the directory or on the MATLAB PATH.
 
 ### Vector Mode
-Call the function with the data vectors as the arguments. Expected vector dimensions are [N,1], where each N is data corresponding to a surveying session.
+Call the function within a matlab script where data vector variables are function arguments. Expected vector dimensions are [N,1], where each N is data corresponding to a surveying session. This is nice because the results would be reproducable with a single matlab script that could be archived.
 
 Example Code: mooringSurvey(LatDeg,LatMin,LonDeg,LonMin,TravelTimeSeconds)
 
