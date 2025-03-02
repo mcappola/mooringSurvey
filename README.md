@@ -6,7 +6,7 @@ The mooringSurvey package triangulates the location of an acoustic release from 
 
 All editable parameters are in the msparam.m file. Update the file for each survey session.
 
-This software serves as a slimmed down and cleaned up version of "Art's Acoustic Survey Software", originally written by Arthur Newhall. Unlikethe original software, this updated software does not rely on a MATLAB GUI, gives a plotted jpeg and textfile as the output, and has a more flexible data input framework. It also uses a new algorithm to solve for the best acoustic release position that should be less error prone to bad data. It borrows one function originally written by Art, as I really couldn't improve it. I kept the input file format the same as "Art's Acoustic Survey Software" so it should be backwards compatible.
+This software serves as a slimmed down and cleaned up version of "Art's Acoustic Survey Software", originally written by Arthur Newhall. Unlike the original version, this updated software does not rely on a MATLAB GUI, gives a plotted jpeg and textfile as the output, and has a more flexible data input framework. It also uses a new algorithm to solve for the best acoustic release position that should be less error prone to bad data. It borrows one function originally written by Art, as I really couldn't improve it. I kept the data input file format the same as "Art's Acoustic Survey Software" so it should be backwards compatible.
 
 #### File Input Mode
 Call the function with the filename as the argument.
@@ -28,7 +28,7 @@ Example Code: mooringSurvey(LatDeg,LatMin,LonDeg,LonMin,TravelTimeSeconds)
 #### Other Info
 Best results require at least 3 positions, but the code is written to accept any amount of position data. 
 
-This packages requires the sw_dist.m function found in the seawater package. In the off chance that this survey software is downloaded on a ship that doesn't have the seawater package installed, I have this function included in the directory. 
+This package requires the sw_dist.m function found in the seawater package. In the off chance that this survey software is downloaded on a ship that doesn't have the seawater package installed, I have this function included in the directory. 
 
 - Version 1.0: Initial release.
 
