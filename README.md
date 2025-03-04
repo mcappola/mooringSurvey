@@ -30,6 +30,8 @@ Best results require at least 3 positions, but the code is written to accept any
 
 This package requires the sw_dist.m function found in the seawater package. In the off chance that this survey software is downloaded on a ship that doesn't have the seawater package installed, I have this function included in the directory. 
 
+The current code treats the N/S and E/W components as static user input variables, so the all survey locations must be consistent. This function will probably break at the north pole, or if survey locations are across either the equator or the prime meridian. 
+
 - Version 1.0: Initial release.
 
 Michael Cappola (mcappola@udel.edu)
