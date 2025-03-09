@@ -14,9 +14,9 @@ Call the function with the filename as the argument.
 Example Code: mooringSurvey('fooBar.txt');
 
 The input file row format should be:
-LatDeg1 LatMin1 LonDeg1 LonMin1 travelTimeSeconds1
-LatDeg2 LatMin2 LonDeg2 LonMin2 travelTimeSeconds2
-etc... 
+1. LatDeg1 LatMin1 LonDeg1 LonMin1 travelTimeSeconds1
+2. LatDeg2 LatMin2 LonDeg2 LonMin2 travelTimeSeconds2
+3. etc... 
 
 This mode uses the readtable() function, so any spreadsheet or textfile format "should" work, as well as any standard delimiter. The file must be in the directory or on the MATLAB PATH.
 
