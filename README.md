@@ -2,7 +2,7 @@
 
 The main function is mooringSurvey.m. All other functions and scripts are called by mooringSurvey.
 
-The mooringSurvey package triangulates the location of an acoustic release from coordinate and acoustic transmitter information. It can use a file as the input or use the information directly as function arguments. Software will generate the best solution as a plotted jpeg and as a textfile in the current directory. The software is assumed to be used at sea, so input and output are provided in standard degrees and minute format for latitude and longitude. 
+The mooringSurvey package triangulates the location of an acoustic release from coordinate and acoustic transmitter information. It can use a file as the input or use the information directly as function arguments. Software will calculate the best solution and generate a jpeg as well as a textfile in the current directory. The software is assumed to be used at sea, so input and output are provided in standard degrees and minute format for latitude and longitude. 
 
 All editable parameters are in the msparam.m file. Update the file for each survey session.
 
