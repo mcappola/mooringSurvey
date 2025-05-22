@@ -9,7 +9,7 @@ All editable parameters are in the msparam.m file. Update the file for each surv
 This software serves as a slimmed down and cleaned up version of "Art's Acoustic Survey Software", originally written by Arthur Newhall. Unlike the original version, this updated software does not rely on a MATLAB GUI, gives a plotted jpeg and textfile as the output, and has a more flexible data input framework. It also uses a new algorithm to solve for the best acoustic release position that should be less error prone to bad data. It borrows one function originally written by Art, as it was mainly just math and I really couldn't improve it. I kept the data input file format the same as "Art's Acoustic Survey Software" so it should be backwards compatible.
 
 ### File Input Mode
-Call the function with the filename as the argument.
+Call the function with the file name as the argument. The file contains all of the survey data from locating the acoustic release.
  
 Example Code: mooringSurvey('fooBar.txt');
 
