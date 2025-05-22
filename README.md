@@ -37,6 +37,7 @@ The current code treats the N/S and E/W components as static user input variable
 Michael Cappola (mcappola@udel.edu)
 
 --------------------------------------------
-## Example Plotted Output
+### Running mooringSurvey.m on example\stations.dat with the default parameters will produce the plot below.
+
 
 ![Example Plot](https://github.com/mcappola/mooringSurvey/blob/main/example/mooringSurveyResults_20250302_105505.jpg)
